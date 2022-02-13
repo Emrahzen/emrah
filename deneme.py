@@ -6,7 +6,6 @@ Screen=pygame.display.set_mode((640,360),0,32)
 color=(255,255,255)
 points=[]
 while True:
-    print(MOUSEBUTTONDOWN)
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
             pygame.quit()
